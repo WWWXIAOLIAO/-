@@ -52,11 +52,13 @@ def video_play(i,j):
         xpath=f"{s1}{i}{s2}{k}{s3}"
         Scroll_to_center(xpath,'/html/body/div[1]/div/div[2]/div[1]/div[2]/div[3]/div')#使目标视频滚动到中央
         video_script(xpath)
-        time.sleep(3)
+        time.sleep(5)
         # 查找视频元素
         video_element = driver.find_element(By.TAG_NAME, 'video')
         # 获取视频时长
         video_duration = video_element.get_property('duration')
+        print(video_duration)
+        time.sleep(5)
         time.sleep(video_duration)
 
     #章节二特殊
@@ -117,37 +119,37 @@ mouse.scroll(0, -20)  # 第一个参数是水平滚动，第二个参数是垂�
 keyboard.release(Key.ctrl)
 time.sleep(1)
 
+# 找到需要滚动的 <div> 元素
 
+# #第一章
+# video_play(1,5)
+#
+# #第二章
+# video_play(2,4)
+#
+# #第三章
+# video_play(3,5)
+#
+# #第四章
+# video_play(4,5)
+#
+# #第五章
+# video_play(5,6)
+#
+# #第六章
+# video_play(6,2)
 
-#第一章
-video_play(1,5)
+# #第七章
+# video_play(7,3)
+#
+# #第八章
+# video_play(8,4)
 
-#第二章
-video_play(2,4)
+# #第九章
+# video_play(9,2)
 
-#第三章
-video_play(3,5)
-
-#第四章
-video_play(4,5)
-
-#第五章
-video_play(5,6)
-
-#第六章
-video_play(6,2)
-
-#第七章
-video_play(7,3)
-
-#第八章
-video_play(8,4)
-
-#第九章
-video_play(9,2)
-
-#第十章
-video_play(10,1)
+# #第十章
+# video_play(10,1)
 
 #第十一章
 video_play(11,1)
