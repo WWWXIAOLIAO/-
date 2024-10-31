@@ -121,35 +121,35 @@ time.sleep(1)
 
 # 找到需要滚动的 <div> 元素
 
-# #第一章
-# video_play(1,5)
-#
-# #第二章
-# video_play(2,4)
-#
-# #第三章
-# video_play(3,5)
-#
-# #第四章
-# video_play(4,5)
-#
-# #第五章
-# video_play(5,6)
-#
-# #第六章
-# video_play(6,2)
+#第一章
+video_play(1,5)
 
-# #第七章
-# video_play(7,3)
-#
-# #第八章
-# video_play(8,4)
+#第二章
+video_play(2,4)
 
-# #第九章
-# video_play(9,2)
+#第三章
+video_play(3,5)
 
-# #第十章
-# video_play(10,1)
+#第四章
+video_play(4,5)
+
+#第五章
+video_play(5,6)
+
+#第六章
+video_play(6,2)
+
+#第七章
+video_play(7,3)
+
+#第八章
+video_play(8,4)
+
+#第九章
+video_play(9,2)
+
+#第十章
+video_play(10,1)
 
 #第十一章
 video_play(11,1)
