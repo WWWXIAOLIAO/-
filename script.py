@@ -117,31 +117,31 @@ mouse.scroll(0, -20)  # 第一个参数是水平滚动，第二个参数是垂�
 keyboard.release(Key.ctrl)
 time.sleep(1)
 
-# 找到需要滚动的 <div> 元素
 
-# #第一章
-# video_play(1,5)
-#
-# #第二章
-# video_play(2,4)
-#
-# #第三章
-# video_play(3,5)
-#
-# #第四章
-# video_play(4,5)
-#
-# #第五章
-# video_play(5,6)
-#
-# #第六章
-# video_play(6,2)
 
-# #第七章
-# video_play(7,3)
-#
-# #第八章
-# video_play(8,4)
+#第一章
+video_play(1,5)
+
+#第二章
+video_play(2,4)
+
+#第三章
+video_play(3,5)
+
+#第四章
+video_play(4,5)
+
+#第五章
+video_play(5,6)
+
+#第六章
+video_play(6,2)
+
+#第七章
+video_play(7,3)
+
+#第八章
+video_play(8,4)
 
 #第九章
 video_play(9,2)
